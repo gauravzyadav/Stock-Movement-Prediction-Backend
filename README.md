@@ -84,21 +84,31 @@ Ensure you have the following installed:
 ├── package.json    # Project metadata and dependencies
 ```
 
-## Security Considerations
-- **Environment Variables**: API keys and database credentials are stored in `.env`.
-- **JWT Authentication**: Secures user authentication using JSON Web Tokens.
-- **Error Handling**: Implements robust error handling to prevent server crashes.
+🔐 Security Considerations
+Environment Variables: Store API keys and credentials securely in a .env file.
 
-## Future Enhancements
-- Implement user-specific stock watchlists.
-- Add WebSocket support for real-time stock updates.
-- Improve response caching for frequent API calls.
+JWT Authentication: Uses JSON Web Tokens to manage and secure user sessions.
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`feature-new-feature`).
-3. Commit your changes.
+Robust Error Handling: Prevents server crashes through structured error management.
+
+🚀 Future Enhancements
+User-specific stock watchlists.
+
+Real-time stock updates via WebSockets.
+
+Enhanced caching for high-frequency API requests.
+
+🤝 Contributing
+We welcome contributions!
+To get started:
+
+Fork the repository.
+
+Create a feature branch: git checkout -b feature/your-feature-name
+
+Commit and push your changes. Submit a pull request.
+
+
 4. Push to your branch and submit a pull request.
 
 ## License
